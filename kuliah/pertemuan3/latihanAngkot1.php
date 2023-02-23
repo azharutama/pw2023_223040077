@@ -1,7 +1,5 @@
-<?php 
-  $t = "Topi";
-  $b = "Bundar";
-?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +9,17 @@
   <title>Document</title>
 </head>
 <body>
-  <h2><i>
-    <?php echo "\$t ." " . "saya" ." ". $b, ." ". $b ." ". $t. " ". "saya\""; ?>
-    </i>
-  </h2>
+
+  <?php 
+  $i = 1;
+   while( $i <= 10) {
+    echo "Angkot no. $i beroprasi dengan baik <br>";
+
+    $i += 1;
+   }
+  ?>
+
+
+  
 </body>
 </html>

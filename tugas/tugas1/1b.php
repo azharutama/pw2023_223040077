@@ -22,19 +22,16 @@
   
 
  //pembagian
- $bagi = $x / 2;
+ $bagi = $x /= 2;
  echo " jika aku dibagi 2, maka aku sekarang menjadi <b>$bagi</b> </br> ";
 
  //pembagian
- $tambah = $x + 75;
+ $tambah = $x += 75;
  echo " jika aku ditambah 75, maka aku sekarang menjadi <b>$tambah</b> </br> ";
 
  //pembagian
- $kurang = $x - 20;
+ $kurang = $x -= 20;
  echo " jika aku dikurang 20, maka aku sekarang menjadi <b>$kurang</b> </br> ";
-
-
-
 
 ?>
   
