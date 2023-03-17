@@ -21,7 +21,7 @@ $namabelakang = "utama";
    if  ($i % 3 == 0 && $i % 5 ==0 ){
       echo " $namadepan $namabelakang <br>" ;
     }  
-    else  if ( $i %3 ==0 ){ 
+    else  if ( $i % 3 ==0 ){ 
       echo "$namadepan  <br>";
 
     } else if ($i %5 ==0) {
