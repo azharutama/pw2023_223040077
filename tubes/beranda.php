@@ -1,10 +1,65 @@
+<?php 
+
+$berita = [
+[
+  'gambar' => 'img/1679555984-Screenshot_20230322-183325_2.png',
+  'judul'=> 'Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg',
+  'tanggal'=>'Kamis, 23 Maret 2023',
+  'tombol'=>'ekonomi.php' , 
+
+],
+
+[
+  'gambar' => 'img/pemerintahan1.jpg',
+  'judul'=> 'Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda',
+  'tanggal'=>'Kamis, 23 Maret 2023',
+  'tombol'=>'pemerintahan.php' , 
+  
+],
+
+[
+  'gambar' => 'img/teknologi1.jpeg',
+  'judul'=> 'Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan',
+  'tanggal'=>'Kamis, 9 Maret 2023',
+  'tombol'=>'teknologi.php' , 
+    
+],
+
+[
+  'gambar' => 'img/kesehatan1.jpeg',
+  'judul'=> 'Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat',
+  'tanggal'=>'Kamis, 16 Maret 2023',
+  'tombol'=>'kesehatan.php' , 
+      
+],
+
+[
+  'gambar' => 'img/sosial1.jpg',
+  'judul'=> 'SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam',
+  'tanggal'=>'Kamis, 23 Maret 2023',
+  'tombol'=>'sosial.php' , 
+        
+],
+
+[
+  'gambar' => 'img/pendidikan1.jpg',
+  'judul'=> 'SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom',
+  'tanggal'=>'Kamis, 23 Maret 2023',
+  'tombol'=>'pendidikan.php' , 
+          
+],
+
+
+]
+?>  
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>JabarGov
-
     </title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -14,196 +69,150 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  </head>
-
+  </head>  
   <body id="Beranda">
     <!-- navbar-->
-
-    <nav class="navbar navbar-expand-lg  navbar-dark shadow sm fixed-top " style="background-color:#212121;">
-      <div class="container">
-        <a class="navbar-brand fs-2 fw-bold" href="beranda.php"><img src="img/logo5 (4) (11).png" alt=""></a>
-        <div class="container-fluid">
-    <form class="d-flex w-50 p-3" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-light" type="submit">Cari</button>
-    </form>
-  </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="beranda.php" target="self">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="profil.php">Profil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="layanan.php">Layanan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="dasboard.php">dasboard</a>
-            </li>
-            <li class="nav-item dropdown">
+    <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+  <div class="container-fluid ms-3">
+    <a class="navbar-brand" href="beranda.php"><img src="img/logo5 (4) (11).png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="beranda.php">Beranda</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="profil.php">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="layanan.php">Layanan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dasboard.php">Dasboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="laporan.php">Laporan</a>
+        </li>
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Berita
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="ekonomi.php">ekonomi</a></li>
-            <li><a class="dropdown-item" href="pemerintahan.php">pemerintahan</a></li>
-            <li><a class="dropdown-item" href="teknologi.php">teknologi</a></li>
+          <li><a class="dropdown-item" href="ekonomi.php">Ekonomi</a></li>
+            <li><a class="dropdown-item" href="pemerintahan.php">Pemerintahan</a></li>
+            <li><a class="dropdown-item" href="teknologi.php">Teknologi</a></li>
             <li><a class="dropdown-item" href="kesehatan.php">Kesehatan</a></li>
-            <li><a class="dropdown-item" href="sosial.php">sosial</a></li>
-            <li><a class="dropdown-item" href="pendidikan.php">pendidikan</a></li>
+            <li><a class="dropdown-item" href="sosial.php">Sosial</a></li>
+            <li><a class="dropdown-item" href="pendidikan.php">Pendidikan</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-              <a class="nav-link" href="laporan.php">Laporan</a>
-            </li>
-
-            
-            <a class="btn btn-light ms-3 me-2" href="login.php" role="button">masuk</a>
-            <a class="btn btn-outline-light" href="daftar.php" role="button">daftar</a>
-            
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Akun
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="login.php">Masuk</a></li>
+            <li><a class="dropdown-item" href="daftar.php">Daftar</a></li>
+           
           </ul>
-        </div>
-      </div>
-    </nav>
-    <!--end-->
+        </li>
+      </ul>
+      <form class="d-flex md-0 pd-0" role="search" >
+        <input class="form-control me-2" style="width:180px;" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
 
-
-    <!--slide image-->
-
-
-    <div id="carouselExampleIndicators" class="carousel slide mt-5">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      
+    </div>
   </div>
-  
-  <div class="carousel-inner z-3 mt-5">
-  <h1 class="z-3 position-absolute d-flex p-2">JAWA BARAT</h1>
+</nav>
+    <!--end-->
+    <!--slide image-->
+    <div id="carouselExampleCaptions" class="carousel slide" style="margin-top:75px;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner"> 
     <div class="carousel-item active">
-      <img src="img/s3.jpg" class="d-block w-100" alt=".">
+      <img src="img/s1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>JAWA BARAT</h2>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
     </div>
     <div class="carousel-item">
       <img src="img/s2.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>JAWA BARAT</h2>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="img/s1.jpeg" class="d-block w-100" alt="...">
+      <img src="img/s3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>JAWABARAT</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
    
   <!--end-->
-
   <!--berita-->
   <div id="beranda">
+    <div class="container text-center ">
+     <div class="display-3 mb-5 ">Berita Terkini</div>
+      <div class="row ps-5">
 
-  <div class="container text-center">
-
-  <div class="display-3 pe-5 mb-5 ">Berita Terkini</div>
-
-  <div class="row">
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card " style="width: 18rem;">
-  <img src="img/1679555984-Screenshot_20230322-183325_2.png" class="card-img-top" alt="ekonomi 1">
-  <div class="card-body">
-    <h5 class="card-title">Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a class="btn btn-dark" href="ekonomi.php" role="button">kunjungi</a>
-  </div>
-</div>
+        <?php foreach ($berita as $b) : ?>
+ 
+          <div class="col-md-4 mt-5 ps-3 mb-5">
+          <div data-aos="zoom-in">
+            <div class="card " style="width: 18rem;">
+              <img src=" <?= $b['gambar']; ?>" class="card-img-top" alt="...">
+               <div class="card-body">
+                    <h5 class="card-title"> <?= $b['judul']; ?></h5>
+                    <p class="card-text"> <?= $b['tanggal']; ?></p>
+                    <a class="btn btn-dark" href=" <?= $b['tombol']; ?>" role="button">kunjungi</a>
+                  
+               </div>
+          </div>
+          
+          </div>
+          
     </div>
+      <?php endforeach; ?>
+      </div>
+      </div>
+      </div>
 
-    <div class="col-md-4 mb-3 ps-5">
-     <div class="card" style="width: 18rem;">
-  <img src="img/pemerintahan1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a class="btn btn-dark" href="pemerintahan.php" role="button">kunjungi</a>
-  </div>
-</div>
+ <!--footer-->
+    <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
+      <footer class="text-center">
+        <p class="text-light">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
+      </footer>
+      </div>
     </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan</h5>
-    <p class="card-text">Kamis, 9 Maret 2023</p>
-    <a class="btn btn-dark" href="teknologi.php" role="button">kunjungi</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/kesehatan1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat</h5>
-    <p class="card-text">Kamis, 16 Maret 2023</p>
-    <a class="btn btn-dark" href="kesehatan.php" role="button">kunjungi</a>
-  </div>
-</div>
-    </div>
+  <!--end-->
 
 
-    <div class="col-md-4 mb-3 ps-5 ">
-    <div class="card" style="width: 18rem;">
-  <img src="img/sosial1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a class="btn btn-dark" href="sosial.php" role="button">kunjungi</a>
-    
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a class="btn btn-dark" href="pendidikan.php" role="button">kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-
-
-  </div>
-  </div>
-  <div class=" mt-3 pt-3 bottom-0" style="height:100px; background-color:#212121;">
-    <footer class="text-center">
-    <p class="text-light">created by <a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
-  </footer>
-  </div>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
