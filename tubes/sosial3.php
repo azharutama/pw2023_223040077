@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body id="berita">
-     <!-- navbar-->
-     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+  <body id="sosial">
+  <!-- navbar-->
+  <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
     <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,94 +76,44 @@
   </div>
 </nav>
     <!--end-->
-   
+  
+    <!--berita-->
+    <div class="container mt-5 pt-5 " >
+              <div class="row">
+                 
+                    <div class="col"> 
+                  <div class="card mb-3">
+                      <img src="img/sosial2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tim SAR Berhasil Temukan 2 Orang Tenggelam di Pantai Bobos</h5>
+                        <p class="card-text">PORTALJABAR, KAB. GARUT - Tim Search and Rescue (SAR) yang terdiri dari anggota Koramil, Polsek, Kepolisian Air (Polair), TNI AU, Bintara Pembina Potensi Maritim (Babinpotmar), TNI AL, Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Garut dan dibantu relawan kemanusiaan lainnya, berhasil mengevakuasi 2 jenazah yang tenggelam di Pantai Bobos, Kabupaten Garut, Jum'at (28/4/2023).
 
-  <!--berita-->
-  <div id="berita">
+                              Menurut Kepala Pelaksana BPBD Kabupaten Garut Satria Budi, kedua jenazah yang merupakan santri dari Pondok Pesantren Roudhotul Mutawassilin Kabupaten Cianjur ini ditemukan di hari yang berbeda.
 
-  <div class="container text-center">
+                              Jenazah pertama berinisal MH (17) asal Kecamatan Malangbong Kabupaten Garut ditemukan pada Kamis (27/4/2023) pada pukul 16.50 WIB sedangkan korban lainnya berinisial F (17) yang juga berasal dari Kecamatan Malangbong, ditemukan pada hari ini, Jum'at (28/4/2023) sekitar pukul 06.40 WIB. 
 
-  <div class="display-3 mb-3 text-center">Berita Terkini</div>
+                              Setelah ditemukan, kedua jenazah tadi langsung dievakuasi ke Rumah Sakit Umum Daerah (RSUD) Pameungpeuk, dan kemudian diserahkan kepada keluarga yang bersangkutan.
 
-  <div class="row">
+                              Menurut Satria Budi, sebelumya kedua korban tersebut pada Rabu (26/4/2023) dilaporkan terseret ombak dan tenggelam ketika berenang bersama 3 temannya di Pantai Bobos yang merupakan daerah dilarang berenang, dan sudah terpasang bendera merah di lokasi tersebut.
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card " style="width: 18rem;">
-  <img src="img/1679555984-Screenshot_20230322-183325_2.png" class="card-img-top" alt="ekonomi 1">
-  <div class="card-body">
-    <h5 class="card-title">Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                              Setelah mendapatkan laporan tersebut, Tim SAR langsung bergerak cepat melakukan operasi SAR laka laut, dengan melaksanakan pencarian di area lokasi terjadinya kecelakaan, baik di air maupun di pesisir pantai.
 
-    <div class="col-md-4 mb-3 ps-5">
-     <div class="card" style="width: 18rem;">
-  <img src="img/1679485859-IMG-20230322-WA0008.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                              "Setelah 3 tiga hari melakukan operasi, Tim SAR dibantu nelayan setempat berhasil menemukan kedua korban yang ditemukan sudah dalam keadaan meninggal dunia," katanya.</p>
+                        <p class="card-text"><small class="text-body-secondary">Senin, 1 Mei 2023</small></p>
+                     
+                        
+                      </div>
+                    </div>
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan</h5>
-    <p class="card-text">Kamis, 9 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+              </div>
+          </div>
+          <!--end-->
+          
+        </div>
+      </div>
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/kesehatan1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat</h5>
-    <p class="card-text">Kamis, 16 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-    <div class="col-md-4 mb-3 ps-5 ">
-    <div class="card" style="width: 18rem;">
-  <img src="img/sosial1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-    
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-
-
-  </div>
-  </div>
-
-
-  <!--footer-->
-  <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
+      <!--footer-->
+      <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
     <footer class="text-center">
     <p class="text-light">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
   </footer>
@@ -171,6 +121,6 @@
   </div>
  <!--end-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

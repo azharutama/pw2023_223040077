@@ -2,10 +2,10 @@
 
 $berita = [
 [
-  'gambar' => 'img/1679555984-Screenshot_20230322-183325_2.png',
+  'gambar' => 'img/ekonomi1.png',
   'judul'=> 'Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg',
   'tanggal'=>'Kamis, 23 Maret 2023',
-  'tombol'=>'ekonomi.php' , 
+  'tombol'=>'ekonomi1.php' , 
 
 ],
 
@@ -13,7 +13,7 @@ $berita = [
   'gambar' => 'img/pemerintahan1.jpg',
   'judul'=> 'Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda',
   'tanggal'=>'Kamis, 23 Maret 2023',
-  'tombol'=>'pemerintahan.php' , 
+  'tombol'=>'pemerintahan1.php' , 
   
 ],
 
@@ -21,7 +21,7 @@ $berita = [
   'gambar' => 'img/teknologi1.jpeg',
   'judul'=> 'Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan',
   'tanggal'=>'Kamis, 9 Maret 2023',
-  'tombol'=>'teknologi.php' , 
+  'tombol'=>'teknologi1.php' , 
     
 ],
 
@@ -29,7 +29,7 @@ $berita = [
   'gambar' => 'img/kesehatan1.jpeg',
   'judul'=> 'Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat',
   'tanggal'=>'Kamis, 16 Maret 2023',
-  'tombol'=>'kesehatan.php' , 
+  'tombol'=>'kesehatan1.php' , 
       
 ],
 
@@ -37,7 +37,7 @@ $berita = [
   'gambar' => 'img/sosial1.jpg',
   'judul'=> 'SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam',
   'tanggal'=>'Kamis, 23 Maret 2023',
-  'tombol'=>'sosial.php' , 
+  'tombol'=>'sosial1.php' , 
         
 ],
 
@@ -45,7 +45,7 @@ $berita = [
   'gambar' => 'img/pendidikan1.jpg',
   'judul'=> 'SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom',
   'tanggal'=>'Kamis, 23 Maret 2023',
-  'tombol'=>'pendidikan.php' , 
+  'tombol'=>'pendidikan1.php' , 
           
 ],
 
@@ -71,17 +71,18 @@ $berita = [
     <link rel="stylesheet" href="style.css">
   </head>  
   <body id="Beranda">
+
     <!-- navbar-->
     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
-    <a class="navbar-brand" href="beranda.php"><img src="img/logo5 (4) (11).png" alt=""></a>
+    <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="beranda.php">Beranda</a>
+          <a class="nav-link active"href="beranda.php">Beranda</a>
         </li>
         
         <li class="nav-item">
@@ -101,12 +102,12 @@ $berita = [
             Berita
           </a>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="ekonomi.php">Ekonomi</a></li>
-            <li><a class="dropdown-item" href="pemerintahan.php">Pemerintahan</a></li>
-            <li><a class="dropdown-item" href="teknologi.php">Teknologi</a></li>
-            <li><a class="dropdown-item" href="kesehatan.php">Kesehatan</a></li>
-            <li><a class="dropdown-item" href="sosial.php">Sosial</a></li>
-            <li><a class="dropdown-item" href="pendidikan.php">Pendidikan</a></li>
+          <li><a class="dropdown-item" href="portal_ekonomi.php">Ekonomi</a></li>
+            <li><a class="dropdown-item" href="portal_pemerintahan.php">Pemerintahan</a></li>
+            <li><a class="dropdown-item" href="portal_teknologi.php">Teknologi</a></li>
+            <li><a class="dropdown-item" href="portal_kesehatan.php">Kesehatan</a></li>
+            <li><a class="dropdown-item" href="portal_sosial.php">Sosial</a></li>
+            <li><a class="dropdown-item" href="portal_pendidikan.php">Pendidikan</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">

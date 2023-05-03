@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body id="berita">
-     <!-- navbar-->
-     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+  <body id="sosial">
+  <!-- navbar-->
+  <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
     <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,94 +76,51 @@
   </div>
 </nav>
     <!--end-->
-   
+  
+    <!--berita-->
+    <div class="container mt-5 pt-5 " >
+              <div class="row">
+                  <div class="col"> 
+                  <div class="card mb-3">
+                      <img src="img/sosial1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam</h5>
+                        <p class="card-text">PORTALJABAR, KAB. BEKASI - Wakil Gubernur Jawa Barat Uu Ruzhanul Ulum melakukan Safari Ramadan di Masjid Al Faidzin Perum Pilar Mas Asri, Kabupaten Bekasi, Kamis (23/3/2023).
 
-  <!--berita-->
-  <div id="berita">
+                            Ia menuturkan pentingnya silaturahmi sebagai salah satu pelaksanaan ibadah dalam berinteraksi sosial.
 
-  <div class="container text-center">
+                            Safari Ramadan yang digelar pun bertujuan untuk silaturahmi seorang pemimpin dan masyarakat dalam menjalin hubungan kedekatan emosional meningkatkan kesejahteraan.
 
-  <div class="display-3 mb-3 text-center">Berita Terkini</div>
+                            “Kalau silaturahmi dibangun dengan kedekatan emosional, maka pemimpin dan masyarakat minimal silih mendoakan dan maksimal ada program yang sampai kepada masyarakat dari pemerintah,” ungkap Wagub Uu Ruzhanul.
 
-  <div class="row">
+                            Ia juga mengemukakan, di bulan suci Ramadan ini mengingatkan dan menyadarkan untuk saling membantu meningkatkan kepedulian antar sesama antara lain menyantuni anak yatim dan santri salafiah dalam menuntut ilmu agama.
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card " style="width: 18rem;">
-  <img src="img/1679555984-Screenshot_20230322-183325_2.png" class="card-img-top" alt="ekonomi 1">
-  <div class="card-body">
-    <h5 class="card-title">Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                            “Insyaallah, mereka akan menjadi benteng agama dan menjadi penerus para ajengan pesantren,” imbuhnya.
 
-    <div class="col-md-4 mb-3 ps-5">
-     <div class="card" style="width: 18rem;">
-  <img src="img/1679485859-IMG-20230322-WA0008.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                            Pada Safari Ramadan ini Wagub Uu Ruzhanul mengingatkan pula kepada orang tua untuk menyeimbangkan pendidikan ukhrawi dan duniawi pada anak-anak.
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan</h5>
-    <p class="card-text">Kamis, 9 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                            Ia mengimbau lebih ditingkatkan lagi pendidikan agama pada anak-anak untuk mengikuti pesantren kilat bahkan tidak ada salahnya mereka masuk pesantren.
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/kesehatan1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat</h5>
-    <p class="card-text">Kamis, 16 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                            “Saya menyampaikan pada masyarakat yang ada di sini, khususnya dalam bidang pembangunan pendidikan, berikanlah pada anak yang seimbang antara pendidikan duniawi dan ukhrawi,” ujar Uu.
 
+                            “Sekolah silahkan sampai sarjana, master, dan doktor. Tapi tolong saat dia sekolah madrasah diniah jangan dilupakan seperti TPA (Tempat Pendidikan Al-Qur'an), majelis taklim juga diikuti,” imbuhnya.</p>
+                            <p class="card-text"><small class="text-body-secondary">Kamis, 23 Maret 2023</small></p>
+                     
+                   
+                      </div>
+                    </div>
+                    
+                   
 
-    <div class="col-md-4 mb-3 ps-5 ">
-    <div class="card" style="width: 18rem;">
-  <img src="img/sosial1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-    
-  </div>
-</div>
-    </div>
+              </div>
+          </div>
+          <!--end-->
+          
+        </div>
+      </div>
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-
-
-  </div>
-  </div>
-
-
-  <!--footer-->
-  <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
+      <!--footer-->
+      <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
     <footer class="text-center">
     <p class="text-light">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
   </footer>
@@ -171,6 +128,6 @@
   </div>
  <!--end-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

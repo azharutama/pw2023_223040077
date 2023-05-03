@@ -1,3 +1,34 @@
+<?php 
+
+$berita = [
+[
+  'gambar' => 'img/kesehatan1.jpeg',
+  'judul'=> 'Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg',
+  'tanggal'=>'Kamis, 23 Maret 2023',
+  'tombol'=>'kesehatan1.php' , 
+
+],
+
+[
+  'gambar' => 'img/kesehatan2.jpeg',
+  'judul'=> 'Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda',
+  'tanggal'=>'Jumat, 17 Maret 2023  ',
+  'tombol'=>'kesehatan2.php' , 
+  
+],
+
+[
+  'gambar' => 'img/kesehatan3.jpeg',
+  'judul'=> 'Peringatan Hari Buruh: Menjamin Hak-Hak Pekerja Melalui Pemberlakuan Jam Kerja yang Layak',
+  'tanggal'=>'Rabu, 3 Mei 2023',
+  'tombol'=>'kesehatan3.php' , 
+  
+]
+
+
+]
+?>  
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,8 +48,8 @@
   </head>
 
   <body id="berita">
-     <!-- navbar-->
-     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+    <!-- navbar-->
+    <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
     <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,89 +107,38 @@
   </div>
 </nav>
     <!--end-->
-   
+  
 
   <!--berita-->
   <div id="berita">
 
-  <div class="container text-center">
+  <div id="beranda">
+    <div class="container text-center ">
+     <div class="display-3 mb-5 ">Berita Kesehatan</div>
+      <div class="row ps-5">
 
-  <div class="display-3 mb-3 text-center">Berita Terkini</div>
-
-  <div class="row">
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card " style="width: 18rem;">
-  <img src="img/1679555984-Screenshot_20230322-183325_2.png" class="card-img-top" alt="ekonomi 1">
-  <div class="card-body">
-    <h5 class="card-title">Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
+        <?php foreach ($berita as $c) : ?>
+ 
+          <div class="col-md-4 mt-5 ps-3 mb-5">
+          
+            <div class="card " style="width: 18rem;">
+              <img src=" <?= $c['gambar']; ?>" class="card-img-top" alt="...">
+               <div class="card-body">
+                    <h5 class="card-title"> <?= $c['judul']; ?></h5>
+                    <p class="card-text"> <?= $c['tanggal']; ?></p>
+                    <a class="btn btn-dark" href=" <?= $c['tombol']; ?>" role="button">kunjungi</a>
+                  
+              
+          </div>
+          
+          </div>
+          
     </div>
+      <?php endforeach; ?>
+      </div>
+      </div>
+      </div>
 
-    <div class="col-md-4 mb-3 ps-5">
-     <div class="card" style="width: 18rem;">
-  <img src="img/1679485859-IMG-20230322-WA0008.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan</h5>
-    <p class="card-text">Kamis, 9 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/kesehatan1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat</h5>
-    <p class="card-text">Kamis, 16 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-    <div class="col-md-4 mb-3 ps-5 ">
-    <div class="card" style="width: 18rem;">
-  <img src="img/sosial1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-    
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-
-
-  </div>
   </div>
 
 

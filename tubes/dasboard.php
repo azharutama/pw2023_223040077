@@ -17,18 +17,17 @@
   </head>
 
 <body>
-    <!-- navbar-->
-
-    <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+     <!-- navbar-->
+     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
-    <a class="navbar-brand" href="beranda.php"><img src="img/logo5 (4) (11).png" alt=""></a>
+    <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link"  href="beranda.php">Beranda</a>
+          <a class="nav-link "href="beranda.php">Beranda</a>
         </li>
         
         <li class="nav-item">
@@ -38,7 +37,7 @@
           <a class="nav-link" href="layanan.php">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="dasboard.php">Dasboard</a>
+          <a class="nav-link active" href="dasboard.php">Dasboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="laporan.php">Laporan</a>
@@ -48,12 +47,12 @@
             Berita
           </a>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="ekonomi.php">Ekonomi</a></li>
-            <li><a class="dropdown-item" href="pemerintahan.php">Pemerintahan</a></li>
-            <li><a class="dropdown-item" href="teknologi.php">Teknologi</a></li>
-            <li><a class="dropdown-item" href="kesehatan.php">Kesehatan</a></li>
-            <li><a class="dropdown-item" href="sosial.php">Sosial</a></li>
-            <li><a class="dropdown-item" href="pendidikan.php">Pendidikan</a></li>
+          <li><a class="dropdown-item" href="portal_ekonomi.php">Ekonomi</a></li>
+            <li><a class="dropdown-item" href="portal_pemerintahan.php">Pemerintahan</a></li>
+            <li><a class="dropdown-item" href="portal_teknologi.php">Teknologi</a></li>
+            <li><a class="dropdown-item" href="portal_kesehatan.php">Kesehatan</a></li>
+            <li><a class="dropdown-item" href="portal_sosial.php">Sosial</a></li>
+            <li><a class="dropdown-item" href="portal_pendidikan.php">Pendidikan</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">

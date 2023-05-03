@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body id="berita">
-     <!-- navbar-->
-     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+  <body id="sosial">
+    <!-- navbar-->
+    <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
     <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,94 +76,42 @@
   </div>
 </nav>
     <!--end-->
-   
-
-  <!--berita-->
-  <div id="berita">
-
-  <div class="container text-center">
-
-  <div class="display-3 mb-3 text-center">Berita Terkini</div>
-
-  <div class="row">
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card " style="width: 18rem;">
-  <img src="img/1679555984-Screenshot_20230322-183325_2.png" class="card-img-top" alt="ekonomi 1">
-  <div class="card-body">
-    <h5 class="card-title">Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-     <div class="card" style="width: 18rem;">
-  <img src="img/1679485859-IMG-20230322-WA0008.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut Diterbitkan</h5>
-    <p class="card-text">Kamis, 9 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/kesehatan1.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat</h5>
-    <p class="card-text">Kamis, 16 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
-
-
-    <div class="col-md-4 mb-3 ps-5 ">
-    <div class="card" style="width: 18rem;">
-  <img src="img/sosial1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SAFARI RAMADAN, Wagub Uu Ruzhanul: Silaturahmi Bagian dari Ibadah agama Islam</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
     
-  </div>
-</div>
-    </div>
+    <!--berita-->
+    <div class="container mt-5 pt-5">
+              <div class="row">
+                  <div class="col"> 
+                  <div class="card mb-3">
+                      <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
+                        <p class="card-text">PORTALJABAR, KOTA BANDUNG - Guru dari SMK di Cirebon yang heboh melihat sekarang, ternyata tidak terkait sama sekali dengan Yayasan Pendidikan Telkom (YPT). 
 
-    <div class="col-md-4 mb-3 ps-5">
-    <div class="card" style="width: 18rem;">
-  <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
-    <p class="card-text">Kamis, 23 Maret 2023</p>
-    <a href="#" class="btn btn-primary">Kunjungi</a>
-  </div>
-</div>
-    </div>
+                          Dalam keterangan pers melalui surat, Humas (Purel) YPT yang diterima Rabu (22/3/2023) disebutkan, kerjasama operasional YPT dengan Yayasan Mifathul Ulum (YMU) pada SMK Telkom Sekar Kemuning Cirebon sudah selesai sejak awal tahun 2023. Karenanya, seluruh pemberitaan dan narasi yang menyebutkan SMK Telkom, sejatinya sudah tidak berlaku. 
 
+                          “Kerjasama Nomor 0002/00/PSE-HK02/YPT/2018 - 008/01/YMU/2018 tanggal 5 Januari 2018 tentang Pengelolaan Bersama SMP, SMA, dan SMK Telkom Sekar Kemuning Cirebon antara YPT dan YMU telah berakhir tanggal 5 Januari 2023, " tulisnya dalam keterangan bertajuk 'Informasi Kepada Publik YPT' bernomor No.0721/00/SET-UM000/YPT/2023. 
 
+                          Purel YPT menuliskan, dengan berakhirnya pengerjaan yang diawali dari tahun 2018 itu, maka YMU tidak berhak lagi menggunakan brand Telkom dan/atau Telkom Schools. Baik untuk keperluan Yayasan maupun seluruh Lembaga Pendidikan di bawah pengelolaan YMU, terhitung sejak berakhirnya masa pengerjaan YPT dan YMU tertanggal 5 Januari 2023.
 
+                          "YPT telah memutuskan secara resmi untuk tidak memperpanjang kerjasama dengan YMU, bahkan sebelum munculnya pemberitaan terkait akhir-akhir ini. Karenanya, sekali lagi, seluruh pemberitaan dan narasi belakangan ini tidak ada kaitannya dengan YPT," tambah isi surat tersebut. 
 
-  </div>
-  </div>
+                          YPT mengharapkan seluruh pihak menjadikan informasi publik tersebut untuk menjadi perhatian bersama.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Kamis, 23 Maret 2023</small></p>
+                     
+                   
+                      </div>
+                    </div>
+                   
 
-
-  <!--footer-->
-  <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
+              </div>
+          </div>
+          <!--end-->
+          
+        </div>
+      </div>
+      <!--footer-->
+      <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
     <footer class="text-center">
     <p class="text-light">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
   </footer>
@@ -171,6 +119,6 @@
   </div>
  <!--end-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

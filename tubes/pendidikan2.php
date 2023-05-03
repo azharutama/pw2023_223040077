@@ -18,42 +18,41 @@
 
   <body id="sosial">
     <!-- navbar-->
-
     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
-    <a class="navbar-brand" href="beranda.php"><img src="img/logo5 (4) (11).png" alt=""></a>
+    <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="beranda.php">Beranda</a>
+          <a class="nav-link "href="beranda.php">Beranda</a>
         </li>
         
         <li class="nav-item">
           <a class="nav-link" href="profil.php">Profil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"href="layanan.php">Layanan</a>
+          <a class="nav-link" href="layanan.php">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="dasboard.php">Dasboard</a>
+          <a class="nav-link" href="dasboard.php">Dasboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="laporan.php">Laporan</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Berita
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="ekonomi.php">Ekonomi</a></li>
-            <li><a class="dropdown-item" href="pemerintahan.php">Pemerintahan</a></li>
-            <li><a class="dropdown-item" href="teknologi.php">Teknologi</a></li>
-            <li><a class="dropdown-item" href="kesehatan.php">Kesehatan</a></li>
-            <li><a class="dropdown-item" href="sosial.php">Sosial</a></li>
-            <li><a class="dropdown-item" href="pendidikan.php">Pendidikan</a></li>
+          <li><a class="dropdown-item" href="portal_ekonomi.php">Ekonomi</a></li>
+            <li><a class="dropdown-item" href="portal_pemerintahan.php">Pemerintahan</a></li>
+            <li><a class="dropdown-item" href="portal_teknologi.php">Teknologi</a></li>
+            <li><a class="dropdown-item" href="portal_kesehatan.php">Kesehatan</a></li>
+            <li><a class="dropdown-item" href="portal_sosial.php">Sosial</a></li>
+            <li><a class="dropdown-item" href="portal_pendidikan.php">Pendidikan</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -77,33 +76,11 @@
   </div>
 </nav>
     <!--end-->
-
+    
     <!--berita-->
     <div class="container mt-5 pt-5">
               <div class="row">
-                  <div class="col"> 
-                  <div class="card mb-3">
-                      <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
-                        <p class="card-text">PORTALJABAR, KOTA BANDUNG - Guru dari SMK di Cirebon yang heboh melihat sekarang, ternyata tidak terkait sama sekali dengan Yayasan Pendidikan Telkom (YPT). 
-
-                          Dalam keterangan pers melalui surat, Humas (Purel) YPT yang diterima Rabu (22/3/2023) disebutkan, kerjasama operasional YPT dengan Yayasan Mifathul Ulum (YMU) pada SMK Telkom Sekar Kemuning Cirebon sudah selesai sejak awal tahun 2023. Karenanya, seluruh pemberitaan dan narasi yang menyebutkan SMK Telkom, sejatinya sudah tidak berlaku. 
-
-                          “Kerjasama Nomor 0002/00/PSE-HK02/YPT/2018 - 008/01/YMU/2018 tanggal 5 Januari 2018 tentang Pengelolaan Bersama SMP, SMA, dan SMK Telkom Sekar Kemuning Cirebon antara YPT dan YMU telah berakhir tanggal 5 Januari 2023, " tulisnya dalam keterangan bertajuk 'Informasi Kepada Publik YPT' bernomor No.0721/00/SET-UM000/YPT/2023. 
-
-                          Purel YPT menuliskan, dengan berakhirnya pengerjaan yang diawali dari tahun 2018 itu, maka YMU tidak berhak lagi menggunakan brand Telkom dan/atau Telkom Schools. Baik untuk keperluan Yayasan maupun seluruh Lembaga Pendidikan di bawah pengelolaan YMU, terhitung sejak berakhirnya masa pengerjaan YPT dan YMU tertanggal 5 Januari 2023.
-
-                          "YPT telah memutuskan secara resmi untuk tidak memperpanjang kerjasama dengan YMU, bahkan sebelum munculnya pemberitaan terkait akhir-akhir ini. Karenanya, sekali lagi, seluruh pemberitaan dan narasi belakangan ini tidak ada kaitannya dengan YPT," tambah isi surat tersebut. 
-
-                          YPT mengharapkan seluruh pihak menjadikan informasi publik tersebut untuk menjadi perhatian bersama.
-                        </p>
-                        <p class="card-text"><small class="text-body-secondary">Kamis, 23 Maret 2023</small></p>
-                     
-                   
-                      </div>
-                    </div>
-                    
+                  
                     <div class="col"> 
                   <div class="card mb-3">
                       <img src="img/pendidikan2.jpeg" class="card-img-top" alt="...">
@@ -139,7 +116,7 @@
 
                             Ia berharap, semua pihak khususnya SKPD terkait dapat memberikan dukungan dalam hal penilaian KLA di Kabupaten Garut, sehingga dapat mencapai target penilaian kategori madya kembali di tahun 2023.
                           </p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <p class="card-text"><small class="text-body-secondary">Kamis, 23 Maret 2023</small></p>
                      
                         
                       </div>

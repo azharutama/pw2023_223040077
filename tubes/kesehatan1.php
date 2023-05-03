@@ -17,43 +17,42 @@
   </head>
 
   <body id="sosial">
-    <!-- navbar-->
-
-    <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
+     <!-- navbar-->
+     <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
-    <a class="navbar-brand" href="beranda.php"><img src="img/logo5 (4) (11).png" alt=""></a>
+    <a class="navbar-brand" href="beranda.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="beranda.php">Beranda</a>
+          <a class="nav-link "href="beranda.php">Beranda</a>
         </li>
         
         <li class="nav-item">
           <a class="nav-link" href="profil.php">Profil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"href="layanan.php">Layanan</a>
+          <a class="nav-link" href="layanan.php">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="dasboard.php">Dasboard</a>
+          <a class="nav-link" href="dasboard.php">Dasboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="laporan.php">Laporan</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Berita
           </a>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="ekonomi.php">Ekonomi</a></li>
-            <li><a class="dropdown-item" href="pemerintahan.php">Pemerintahan</a></li>
-            <li><a class="dropdown-item" href="teknologi.php">Teknologi</a></li>
-            <li><a class="dropdown-item" href="kesehatan.php">Kesehatan</a></li>
-            <li><a class="dropdown-item" href="sosial.php">Sosial</a></li>
-            <li><a class="dropdown-item" href="pendidikan.php">Pendidikan</a></li>
+          <li><a class="dropdown-item" href="portal_ekonomi.php">Ekonomi</a></li>
+            <li><a class="dropdown-item" href="portal_pemerintahan.php">Pemerintahan</a></li>
+            <li><a class="dropdown-item" href="portal_teknologi.php">Teknologi</a></li>
+            <li><a class="dropdown-item" href="portal_kesehatan.php">Kesehatan</a></li>
+            <li><a class="dropdown-item" href="portal_sosial.php">Sosial</a></li>
+            <li><a class="dropdown-item" href="portal_pendidikan.php">Pendidikan</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -109,34 +108,7 @@
                       </div>
                     </div>
                     
-                    <div class="col"> 
-                  <div class="card mb-3">
-                      <img src="img/kesehatan2.jpeg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">RS Pendidikan Unpad Target Selesai Desember 2023</h5>
-                        <p class="card-text">PORTALJABAR, KAB. SUMEDANG - Universitas Padjadjaran akan memiliki Rumah Sakit Pendidikan atau Teaching Hospital di Jatinangor.  
-
-                              Hal itu disampaikan Gubernur Jawa Barat Ridwan Kamil saat peletakan batu pertama Rumah Sakit Pendidikan Unpad di Kampus Unpad, Jatinangor, Kabupaten Sumedang, Jumat (17/3/2023). 
-
-                              Gubernur mengungkapkan bahwa lokasi pembangunan RS ini sangat pas karena berada di Jatinangor. Kecamatan ini menjadi simpul pergerakan manusia di ujung timur Bandung. 
-
-                              Nantinya mayoritas SDM di RS pendidikan Unpad ini berasal dari kampus sendiri. 
-
-                              "Alhamdulillah hari ini mimpi besar pelayanan kesehatan terjadi di Unpad. Mudah-mudahan Desember selesai, Januari masyarakat sudah bisa memanfaatkan," ujar Ridwan Kamil. 
-
-                              RS Pendidikan Unpad dirancang memiliki lima lantai yang pembangunannya ditarget selesai Desember 2023. Dengan anggaran tahap pertama Rp110 Miliar yang merupakan kombinasi anggaran Unpad dan Pemdaprov Jabar. 
-
-                              Sambil melatih calon-calon dokter, menurut Gubernur, RS Unpad juga akan melayani masyarakat umum. Pasalnya pada lantai dua akan ada poliklinik pemeriksaan hingga laboratorium.  
-
-                              Menurut Gubernur, Jabar masih membutuhkan 20 rumah sakit, sehingga jika ada sekolah atau pihak swasta yang ingin menggenapi kebutuhan, maka kesempatan tersebut sangat ditunggu. 
-
-                              
-                          </p>
-                        <p class="card-text"><small class="text-body-secondary">Jumat, 17 Maret 2023</small></p>
-                     
-                        
-                      </div>
-                    </div>
+                   
 
               </div>
           </div>
