@@ -6,7 +6,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/teknologi1.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Kominfo RI Gelar Workshop  Prototype Pengembangan Desa Digital di Kabupaten Garut</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Biro Perencanaan Kementerian Komunikasi dan Informatika (Kominfo) RI bekerja sama dengan Pemda Provinsi Jabar menggelar acara workshop prototype pengembangan desa digital yang dilaksanakan di Ballroom Hotel Santika, Jalan Cipanas Baru, Kecamatan Tarogong Kaler, Kabupaten Garut (9/3/2023).

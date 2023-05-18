@@ -8,7 +8,7 @@
                  
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/sosial2.jpg" class="card-img-top" alt="...">
+                      <img src="views/img/sosial2.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Tim SAR Berhasil Temukan 2 Orang Tenggelam di Pantai Bobos</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Tim Search and Rescue (SAR) yang terdiri dari anggota Koramil, Polsek, Kepolisian Air (Polair), TNI AU, Bintara Pembina Potensi Maritim (Babinpotmar), TNI AL, Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Garut dan dibantu relawan kemanusiaan lainnya, berhasil mengevakuasi 2 jenazah yang tenggelam di Pantai Bobos, Kabupaten Garut, Jum'at (28/4/2023).
@@ -37,13 +37,6 @@
         </div>
       </div>
 
-      <!--footer-->
-      <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
-    <footer class="text-center">
-    <p class="text-light">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
-  </footer>
-  </div>
-  </div>
- <!--end-->
+   
 
     <<?php require('partials/footer.php'); ?>

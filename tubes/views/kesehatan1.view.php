@@ -6,7 +6,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/kesehatan1.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/kesehatan1.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Plt Bupati Bogor Harap RSUD Leuwiliang Beri Pelayanan Kesehatan Optimal pada Masyarakat</h5>
                         <p class="card-text">PORTALJABAR, KAB. BOGOR - Plt. Bupati Bogor Iwan Setiawan menyatakan adanya penilaian akreditasi terhadap RSUD Leuwiliang dapat menjadikan layanan kesehatan di RSUD Leuwiliang semakin optimal kepada masyarakat.

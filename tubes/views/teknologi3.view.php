@@ -7,7 +7,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/teknologi1.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/teknologi1.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Pemda Provinsi Jawa Barat Raih Penghargaan GO SMART AWARD 2023</h5>
                         <p class="card-text">PORTALJABAR, KOTA BANDUNG - Pemda Provinsi Jawa Barat melalui Jabar Digital Service (JDS) sebagai Unit Pelaksana Teknis Pengelola Layanan Digital, Data, dan Informasi Geospasial (UPTD PLDDIG) berhasil meraih penghargaan internasional di sektor teknologi pada ajang GO SMART AWARD 2023 di Taipei, Taiwan. Dalam ajang penghargaan ini, Jawa Barat masuk dalam 5 besar, lebih unggul dari Jepang dan Amerika. Penerimaan penghargaan diwakili oleh Kantor Dagang dan Ekonomi Indonesia di Taipei (KDEI).

@@ -7,7 +7,7 @@
                     
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/ekonomi2.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/ekonomi2.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Pemdakab Garut Gelar High Level Meeting Tim Pengendalian Inflasi Daerah Tahun 2023</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Pemerintah Daerah Kabupaten (Pemdakab) Garut menggelar High Level Meeting Tim Pengendalian Inflasi Daerah Kabupaten Garut Tahun 2023 yang dilaksanakan di Ballroom Hotel Harmoni, Kabupaten Garut, Selasa (21/3/2023).

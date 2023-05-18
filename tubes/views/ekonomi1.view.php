@@ -7,7 +7,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/ekonomi1.png" class="card-img-top" alt="...">
+                      <img src="views/img/ekonomi1.png" class="card-img-top" alt="...">
                       <div class="card-body"> 
                         <h5 class="card-title">Sempat Tolak 2 Kali Usulan Hiswana Migas, Akhirnya Pemdakab Garut Naikan HET Gas 3Kg</h5>
                         <p class="card-text">PORTALJABAR, KAB. BEKASI - Wakil Gubernur Jawa Barat Uu Ruzhanul Ulum melakukan Safari Ramadan di Masjid Al Faidzin Perum Pilar Mas Asri, Kabupaten Bekasi, Kamis (23/3/2023).
@@ -46,4 +46,4 @@
       </div>
       
     
- <?php require('partials/footer.php'); ?>
+ <?php require('partials/footer2.php'); ?>

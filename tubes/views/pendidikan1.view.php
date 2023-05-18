@@ -7,7 +7,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/pendidikan1.jpg" class="card-img-top" alt="...">
+                      <img src="views/img/pendidikan1.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">SMK Telkom Sekar Kemuning Cirebon Tidak Terkait Dengan Yayasan Pendidikan Telkom</h5>
                         <p class="card-text">PORTALJABAR, KOTA BANDUNG - Guru dari SMK di Cirebon yang heboh melihat sekarang, ternyata tidak terkait sama sekali dengan Yayasan Pendidikan Telkom (YPT). 

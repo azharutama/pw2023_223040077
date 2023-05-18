@@ -8,27 +8,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link "href="index.php">Beranda</a>
+          <a class="nav-link nav-link <?= uriIs('index.php'); ?>"href="index.php">Beranda</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="profil.php ">Profil</a>
+          <a class="nav-link nav-link <?= uriIs('profil.php'); ?>" href="profil.php ">Profil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="layanan.php">Layanan</a>
+          <a class="nav-link nav-link <?= uriIs('layanan.php'); ?>" href="layanan.php">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="dasboard.php">Dasboard</a>
+          <a class="nav-link nav-link <?= uriIs('dasboard.php'); ?>" href="dasboard.php">Dasboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="laporan.php">Laporan</a>
+          <a class="nav-link nav-link <?= uriIs('laporan.php'); ?>" href="laporan.php">Laporan</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle <?= uriIs('berita.php'); ?> <?= uriIs('p_ekonomi.php'); ?> <?= uriIs('p_pemerintahan.php'); ?> <?= uriIs('p_teknologi.php'); ?>  <?= uriIs('p_kesehatan.php'); ?> <?= uriIs('p_sosial.php'); ?> <?= uriIs('p_pendidikan.php'); ?>  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Berita
           </a>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item " href="p_ekonomi.php">Ekonomi</a></li>
+          <li><a class="dropdown-item" href="p_ekonomi.php">Ekonomi</a></li>
             <li><a class="dropdown-item" href="p_pemerintahan.php">Pemerintahan</a></li>
             <li><a class="dropdown-item" href="p_teknologi.php">Teknologi</a></li>
             <li><a class="dropdown-item" href="p_kesehatan.php">Kesehatan</a></li>
@@ -37,7 +37,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle <?= uriIs('login.php'); ?> <?= uriIs('daftar.php'); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Akun
           </a>
           <ul class="dropdown-menu">

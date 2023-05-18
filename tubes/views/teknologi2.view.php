@@ -8,7 +8,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/teknologi2.jpg" class="card-img-top" alt="...">
+                      <img src="views/img/teknologi2.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Plt. Bupati Bogor: Aplikasi SIRUP Dukung Transparansi Bidang Pengadaan dan Jasa</h5>
                         <p class="card-text">PORTALJABAR, KAB. BOGOR - Plt. Bupati Bogor, Iwan Setiawan menyatakan penggunaan Sistem Informasi Rencana Umum Pengadaan (SIRUP) merupakan upaya pemerintah dalam menciptakan transformasi penyelenggaraan pengadaan barang dan jasa yang lebih mudah, cepat, dan transparan. 

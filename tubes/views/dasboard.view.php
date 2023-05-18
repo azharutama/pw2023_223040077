@@ -5,7 +5,7 @@
      
 
 
-    <div class="display-3 mb-3 mt-5 pt-5 text-center"> dasboard</div>
+    <div class="display-3 mb-3 mt-5 pt-5 text-center fw-bold"> Dasboard</div>
     <div class="container">
       <div class="row">
         <div class="col">

@@ -8,7 +8,7 @@
                   
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/pendidikan2.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/pendidikan2.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Garut Targetkan Naik Peringkat Madya pada Penilaian Kabupaten Layak Anak Tahun 2023</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Koordinator Klaster 3 untuk Kesehatan Dasar dan Kesejahteraan Forum Anak Daerah (FAD) Kabupaten Garut Hudzaifah Hidayat Putra mengungkapkan, sudah sangat banyak kegiatan dari FAD Kabupaten Garut yang berpengaruh terhadap penilaian Kabupaten Layak Anak (KLA), sehingga menorehkan prestasi membanggakan.

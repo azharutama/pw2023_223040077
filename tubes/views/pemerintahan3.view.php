@@ -6,7 +6,7 @@
                     
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/pemerintahan3.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/pemerintahan3.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Diskop UKM Hadirkan Garut Packaging House sebagai Layanan Publik bagi UMKM</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Keberadaan kemasan dalam sebuah brand atau produk tentunya menjadi salah satu hal yang harus diperhatikan, karena kemasan yang bagus biasanya akan banyak menarik minat dari konsumen.

@@ -7,7 +7,7 @@
                     
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/ekonomi4.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/ekonomi4.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Peringatan Hari Buruh: Menjamin Hak-Hak Pekerja Melalui Pemberlakuan Jam Kerja yang Layak</h5>
                         <p class="card-text">PORTALJABAR, KOTA BANDUNG - Hari Buruh Internasional atau juga dikenal sebagai May Day diperingati setiap 1 Mei untuk mengenang kontribusi para pekerja di seluruh dunia. Hari ini juga menandai dimulainya perjuangan untuk hak-hak pekerja, seperti hak untuk memperoleh jam kerja yang layak. 
@@ -40,12 +40,5 @@
         </div>
       </div>
       
-     <!--footer-->
-  <div class=" mt-3 pt-3 bottom-0" style="height:70px; background-color:#212121;">
-    <footer class="text-center">
-      <p class="text-light">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-light p-2 text-decoration-none">Azhar Utama </a> </p>
-     </footer>
-  </div>
-  </div>
- <!--end-->
+    
  <?php require('partials/footer.php'); ?>

@@ -8,7 +8,7 @@
                     
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/pemerintahan2.jpg" class="card-img-top" alt="...">
+                      <img src="views/img/pemerintahan2.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Wabup Garut Terima Tim BPK Provinsi Jawa Barat dalam Entry Meeting Pemeriksaan LKPD Kabupaten Garut Tahun 2022</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Wakil Bupati Garut, dr. Helmi Budiman menerima kunjungan dari Tim Badan Pemeriksaan Keuangan (BPK) Provinsi Jawa Barat dalam kegiatan Entry Meeting  Pemeriksaan Laporan Keuangan Pemerintah Daerah (LKPD) Kabupaten Garut Tahun 2022, berlangsung di Ruang Rapat Sekretariat Daerah (Setda) Garut, Jalan Pembangunan, Kecamatan Tarogong Kidul, Kabupaten Garut, Selasa (21/3/2023).

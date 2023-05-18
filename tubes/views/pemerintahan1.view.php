@@ -6,7 +6,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/pemerintahan1.jpg" class="card-img-top" alt="...">
+                      <img src="views/img/pemerintahan1.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Menjelang Bulan Ramadan, Pemerintah Kabupaten Garut Gelar Rapat Forkopimda</h5>
                         <p class="card-text">PORTALJABAR, KAB. GARUT - Pemerintah Kabupaten (Pemkab) Garut menggelar acara Rapat Forum Koordinasi Pimpinan Daerah (Forkopimda) dalam rangka persiapan menjelang bulan Ramadan 1444 Hijriah sekaligus silaturahmi, bertempat di Area Ruang Pamengkang, Kecamatan Garut Kota, Kabupaten Garut, Selasa (21/3/2023).

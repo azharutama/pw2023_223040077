@@ -21,7 +21,7 @@
                <div class="card-body">
                     <h5 class="card-title"> <?= $c['judul']; ?></h5>
                     <p class="card-text"> <?= $c['tanggal']; ?></p>
-                    <a class="btn btn-dark" href=" <?= $c['tombol']; ?>" role="button">kunjungi</a>
+                    <a class="btn btn-dark" href=" <?= $c['tombol']; ?> " role="button">kunjungi</a>
                   
               
           </div>
@@ -39,4 +39,6 @@
 
   
 
- <?php require('partials/footer.php'); ?>
+ <?php require('partials/footer2.php'); ?>
+
+ 

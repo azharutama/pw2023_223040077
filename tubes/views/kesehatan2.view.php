@@ -8,7 +8,7 @@
                     
                     <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/kesehatan2.jpeg" class="card-img-top" alt="...">
+                      <img src="views/img/kesehatan2.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">RS Pendidikan Unpad Target Selesai Desember 2023</h5>
                         <p class="card-text">PORTALJABAR, KAB. SUMEDANG - Universitas Padjadjaran akan memiliki Rumah Sakit Pendidikan atau Teaching Hospital di Jatinangor.  

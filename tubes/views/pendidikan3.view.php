@@ -6,7 +6,7 @@
               <div class="row">
                   <div class="col"> 
                   <div class="card mb-3">
-                      <img src="img/pendidikan3.jpg" class="card-img-top" alt="...">
+                      <img src="views/img/pendidikan3.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">HARDIKNAS Jawa Barat Prioritaskan Pembangunan SMA/SMK Baru di 33 Kecamatan</h5>
                         <p class="card-text">PORTALJABAR, KOTA BANDUNG - Pemerintah Daerah Provinsi Jawa Barat memprioritaskan pembangunan SMA/SMK baru di 33 kecamatan di Jabar. 
