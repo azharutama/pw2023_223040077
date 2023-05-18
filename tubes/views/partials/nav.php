@@ -1,7 +1,7 @@
 
 <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
-    <a class="navbar-brand" href="beranda.php"><img src="views/img/logo.png" alt=""></a>
+    <a class="navbar-brand <?= uriIs('index.php'); ?>"href="index.php" href="index.php"><img src="views/img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,7 +24,7 @@
           <a class="nav-link nav-link <?= uriIs('laporan.php'); ?>" href="laporan.php">Laporan</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle <?= uriIs('berita.php'); ?> <?= uriIs('p_ekonomi.php'); ?> <?= uriIs('p_pemerintahan.php'); ?> <?= uriIs('p_teknologi.php'); ?>  <?= uriIs('p_kesehatan.php'); ?> <?= uriIs('p_sosial.php'); ?> <?= uriIs('p_pendidikan.php'); ?>  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle <?= uriIs('berita.php'); ?> <?= uriIs('p_ekonomi.php'); ?> <?= uriIs('p_pemerintahan.php'); ?> <?= uriIs('p_teknologi.php'); ?>  <?= uriIs('p_kesehatan.php'); ?> <?= uriIs('p_sosial.php'); ?> <?= uriIs('p_pendidikan .php'); ?>  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Berita
           </a>
           <ul class="dropdown-menu">
