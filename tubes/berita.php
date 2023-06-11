@@ -1,6 +1,6 @@
 <?php
 require('functions.php');
-$nama = "ADMIN";
+$nama = "BERITA";
 $berita = query("SELECT * FROM berita");
 //function cari berita
 if (isset($_GET['button-search'])) {
