@@ -2,16 +2,21 @@ html {
   background-color: rgb(255, 255, 255);
   list-style: none;
 }
+body {
+  background-color: rgb(255, 255, 255);
+}
 
 .nav-item:hover {
-  color: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
 }
 
 .nav-item:active {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
-
+.navbar-brand {
+  font-weight: bolder;
+}
 .card-body {
   background-color: rgb(255, 253, 253);
 }
@@ -74,4 +79,12 @@ html {
 
 a {
   text-decoration: none;
+}
+.jumbotron {
+  margin-top: 77px;
+  padding-top: 14rem;
+  background-image: url("1.jpg");
+  background-position: center top;
+  background-size: cover;
+  color: rgb(254, 255, 254);
 }

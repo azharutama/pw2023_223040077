@@ -54,7 +54,7 @@
           <div class="card-header">
             <?= $d['judul']; ?>
           </div>
-          <div class="card-body">
+          <div class=" card-body">
             <h5 class="card-title"><?= $d['jumlah']; ?></h5>
             <p class="card-text"><?= $d['waktu']; ?></p>
           </div>

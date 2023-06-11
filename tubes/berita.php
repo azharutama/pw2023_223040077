@@ -1,7 +1,7 @@
 <?php
 require('functions.php');
 $nama = "ADMIN";
-
+$berita = query("SELECT * FROM berita");
 //function cari berita
 if (isset($_GET['button-search'])) {
   $key = $_GET['key'];
@@ -14,8 +14,9 @@ if (isset($_GET['button-search'])) {
             ";
 
   $berita = query($sql);
-} else {
-  $berita = query("SELECT * FROM berita");
+}
+if (empty($berita)) {
+  echo "<script>alert('Data not found.');</script>";
 }
 
 require('views/berita.view.php');

@@ -198,7 +198,7 @@
   <!--footer-->
   <div class="pt-3 bottom-0 bg-light" style="height:70px;">
     <footer class="text-center">
-      <p class="text-dark">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text-dark p-2 text-decoration-none">Azhar Utama </a> </p>
+      <p class="text-dark">Copyright &copy; 2023<a href="https://www.instagram.com/_zhrutmzll/" class="text- p-2 text-decoration-none">Azhar Utama </a> </p>
     </footer>
   </div>
   </div>

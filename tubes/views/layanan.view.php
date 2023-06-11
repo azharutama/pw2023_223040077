@@ -50,7 +50,7 @@
     <div class="row">
       <div class="col">
         <div class="card">
-          <div class="card-header" style="background-color: rgba(35, 139, 14);">
+          <div class="card-header text-light" style="background-color: rgba(33, 33, 33);">
             SIDATUK
           </div>
           <div class="card-body">
@@ -68,7 +68,7 @@
       <div class="row">
         <div class="col">
           <div class="card">
-            <div class="card-header " style="background-color: rgba(35, 139, 14);">
+            <div class="card-header text-light" style="background-color: rgba(33, 33, 33);">
               SAMBARA
             </div>
             <div class="card-body">
@@ -85,7 +85,7 @@
         <div class="row">
           <div class="col">
             <div class="card">
-              <div class="card-header " style=" background-color: rgba(35, 139, 14);">
+              <div class="card-header text-light" style=" background-color: rgba(33, 33, 33);">
 
                 SLIPZ
               </div>
@@ -98,7 +98,7 @@
 
           <div class="col">
             <div class="card">
-              <div class="card-header" style=" background-color: rgba(35, 139, 14);">
+              <div class="card-header text-light" style=" background-color: rgba(33, 33, 33);">
                 PPDB
               </div>
               <div class="card-body">
@@ -117,7 +117,7 @@
           <div class="row">
             <div class="col">
               <div class="card">
-                <div class="card-header" style=" background-color: rgba(35, 139, 14);">
+                <div class="card-header text-light" style=" background-color: rgba(33, 33, 33);">
                   UKS
                 </div>
                 <div class="card-body">
@@ -129,7 +129,7 @@
 
             <div class="col">
               <div class="card">
-                <div class="card-header " style="background-color: rgba(35, 139, 14);">
+                <div class="card-header text-light" style="background-color: rgba(33, 33, 33);">
                   DINSOS
                 </div>
                 <div class="card-body">
@@ -141,7 +141,7 @@
 
             <div class="col">
               <div class="card">
-                <div class="card-header" style="background-color: rgba(35, 139, 14);">
+                <div class="card-headerm text-light" style="background-color: rgba(33, 33, 33);">
                   DINSOS
                 </div>
                 <div class="card-body">
