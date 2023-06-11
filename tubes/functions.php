@@ -1,7 +1,12 @@
 <?php
-
+//navbar actived
 define('BASE_URL', '/pw2023_223040077/tubes/');
+
+
+//koneksi
 $conn = mysqli_connect('localhost', 'root', '', 'db_tubes');
+
+//koneksi
 function koneksi()
 {
   $conn = mysqli_connect('localhost', 'root', '', 'db_tubes') or die('KONEKSI GAGAL!');
@@ -10,11 +15,12 @@ function koneksi()
 
 
 
-
+//querry
 function query($query)
 {
   $conn = koneksi();
-  $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
+  $result = mysqli_query($conn, $query)
+    or die(mysqli_error($conn));
 
   $rows = [];
   while ($row = mysqli_fetch_assoc($result)) {
@@ -24,28 +30,33 @@ function query($query)
   return $rows;
 }
 
-//tambah untuk laporan
-function tambah($data)
+
+
+//function hapus laporan
+function hapusL($id)
 {
   $conn = koneksi();
-
-  $gambar = $data["gambar"];
-  $email = $data['email'];
-  $tanggal = $data['tanggal'];
-  $laporan = $data['laporan'];
-
-
-  $query = "INSERT INTO 
-            laporan
-                  VALUES
-                    (null, '$gambar','$email', '$tanggal', '$laporan')";
-
-  mysqli_query($conn, $query) or die(mysqli_error($conn));
-
+  mysqli_query($conn, "DELETE FROM laporan WHERE id = $id ");
   return mysqli_affected_rows($conn);
 }
 
-//tambah untuk users
+//function hapus berita
+function hapusB($id)
+{
+  $conn = koneksi();
+  mysqli_query($conn, "DELETE FROM berita WHERE id = $id ");
+  return mysqli_affected_rows($conn);
+}
+
+//function hapus Users
+function hapusU($id)
+{
+  $conn = koneksi();
+  mysqli_query($conn, "DELETE FROM users WHERE id = $id ");
+  return mysqli_affected_rows($conn);
+}
+
+//function menambah laporan
 function insert($data)
 {
   $conn = koneksi();
@@ -55,6 +66,10 @@ function insert($data)
   $tanggal = $data['tanggal'];
   $laporan = $data['laporan'];
 
+  $gambar = upload();
+  if (!$gambar) {
+    return false;
+  }
 
   $query = "INSERT INTO 
             laporan
@@ -66,34 +81,103 @@ function insert($data)
   return mysqli_affected_rows($conn);
 }
 
-function hapusL($id)
+
+//function menambah berita
+function tambah($data)
 {
   $conn = koneksi();
-  mysqli_query($conn, "DELETE FROM laporan WHERE id = $id ");
+
+
+  $judul = htmlspecialchars($data["judul"]);
+  $tanggal = htmlspecialchars($data["tanggal"]);
+  $isi = htmlspecialchars($data["isi"]);
+
+  //upload gambar
+  $gambar = upload();
+  if (!$gambar) {
+    return false;
+  }
+
+  $query = "INSERT INTO berita
+				VALUES
+			  (null, '$gambar', '$judul', '$tanggal', '$isi')
+			";
+  mysqli_query($conn, $query);
+
   return mysqli_affected_rows($conn);
 }
 
-function hapusU($id)
+function upload()
 {
-  $conn = koneksi();
-  mysqli_query($conn, "DELETE FROM users WHERE id = $id ");
-  return mysqli_affected_rows($conn);
+  $namaFile = $_FILES['gambar']['name'];
+  $ukuranFile = $_FILES['gambar']['size'];
+  $error = $_FILES['gambar']['error'];
+  $tmpName = $_FILES['gambar']['tmp_name'];
+
+  //cek apakah tidak ada gambar yang diupload
+  if ($error === 4) {
+    echo "<script>
+				alert('pilih gambar terlebih dahulu!');
+			  </script>";
+    return false;
+  }
+
+  // cek apakah yang diupload adalah gambar
+  $ekstensiGambarValid = ['jpg', 'jpeg', 'png'];
+  $ekstensiGambar = explode('.', $namaFile);
+  $ekstensiGambar = strtolower(end($ekstensiGambar));
+  if (!in_array($ekstensiGambar, $ekstensiGambarValid)) {
+    echo "<script>
+				alert('yang anda upload bukan gambar!');
+			  </script>";
+    return false;
+  }
+
+  // cek ukuran
+  if ($ukuranFile > 100000000000) {
+    echo "<script>
+				alert('ukuran gambar terlalu besar!');
+			  </script>";
+    return false;
+  }
+
+  // lolos, gambar siap
+  //buat nama file baru
+  $namaFileBaru = uniqid();
+  $namaFileBaru .= '.';
+  $namaFileBaru .= $ekstensiGambar;
+
+  move_uploaded_file($tmpName, 'img/' . $namaFileBaru);
+
+  return $namaFileBaru;
 }
 
+
+//function ubah berita
 function ubah($data)
 {
   $conn = koneksi();
 
-  $id = $data['id'];
-  $gambar = $data["gambar"];
-  $email = $data['email'];
-  $laporan = $data['laporan'];
+  $id = $data["id"];
+  $gambarLama = htmlspecialchars($data["gambarLama"]);
+  $judul = htmlspecialchars($data["judul"]);
+  $tanggal = htmlspecialchars($data["tanggal"]);
+  $isi = htmlspecialchars($data["isi"]);
 
-  $query = " UPDATE  laporan
-           SET  gambar = '$gambar',
-                email = '$email',
-				        laporan = '$laporan'
-			     WHERE id = $id
+  // cek apakah user pilih gambar baru atau tidak
+  if ($_FILES['gambar']['error'] === 4) {
+    $gambar = $gambarLama;
+  } else {
+    $gambar = upload();
+  }
+
+  $query = "UPDATE berita SET
+
+				gambar = '$gambar',
+				judul = '$judul',
+				tanggal = '$tanggal',
+				isi = '$isi'
+			  WHERE id = $id
 			";
 
   mysqli_query($conn, $query);
@@ -101,18 +185,26 @@ function ubah($data)
   return mysqli_affected_rows($conn);
 }
 
+//funnction cari tanpa live searching
 function cari($keyword)
 {
-  $query = "SELECT * FROM laporan
-				WHERE
-			  email LIKE '%$keyword%' OR
-			  tanggal LIKE '%$keyword%' OR
-			  laporan LIKE '%$keyword%'
-			
-			";
-  return query($query);
+  $conn = koneksi();
+  $query = "SELECT * FROM berita 
+            WHERE
+            judul LIKE '%$keyword%' OR
+            tanggal LIKE '%$keyword%' OR
+            isi LIKE '%$keyword%'";
+
+  $result = mysqli_query($conn, $query);
+  $rows = [];
+  while ($row = mysqli_fetch_assoc($result)) {
+    $rows[] = $row;
+  }
+  return $rows;
 }
 
+
+//function registrasi user baru 
 function registrasi($data)
 {
   $conn = koneksi();
@@ -127,25 +219,25 @@ function registrasi($data)
 
   if (mysqli_fetch_assoc($result)) {
     echo "<script>
-				alert('username sudah terdaftar!')
-		      </script>";
+        alert('Username sudah terdaftar!');
+      </script>";
     return false;
   }
-
 
   // cek konfirmasi password
   if ($password !== $password2) {
     echo "<script>
-				alert('konfirmasi password tidak sesuai!');
-		      </script>";
+        alert('Konfirmasi password tidak sesuai!');
+      </script>";
     return false;
   }
 
   // enkripsi password
   $password = password_hash($password, PASSWORD_DEFAULT);
 
-  // tambahkan userbaru ke database
-  mysqli_query($conn, "INSERT INTO users VALUES( id, '$username','$email', '$password')");
+  // tambahkan user baru ke database
+  $query = "INSERT INTO users (username, email, password, role_id) VALUES ('$username', '$email', '$password', 2)";
+  mysqli_query($conn, $query);
 
   return mysqli_affected_rows($conn);
 }
@@ -161,6 +253,8 @@ function dd($value)
   die();
 }
 
+
+//function requeest uri untuk navbar
 function uriIs($uri)
 {
   return ($_SERVER["REQUEST_URI"] === BASE_URL . $uri) ? 'active' : '';

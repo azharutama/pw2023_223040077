@@ -2,7 +2,7 @@
 
 <nav class="navbar bg-dark navbar-dark shadow sm  navbar-expand-lg fixed-top ">
   <div class="container-fluid ms-3">
-    <a class="navbar-brand <?= uriIs('index.php'); ?>" href="index.php" href="index.php"><img src="views/img/logo.png" alt=""></a>
+    <a class="navbar-brand <?= uriIs('index.php'); ?>" href="index.php" href="index.php"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,7 +25,7 @@
 
 <!--form-->
 <?php if (isset($error)) : ?>
-  <p style="color: red; font-style: italic;">username / password salah</p>
+  <p style="color: red; font-style: italic;">username/password salah</p>
 <?php endif; ?>
 
 

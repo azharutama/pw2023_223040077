@@ -2,7 +2,7 @@
 
 <?php require('partials/nav.php'); ?>
 <!--form-->
-<form action="" method="post">
+<form action="" method="post" enctype="multipart/form-data">
   <div class="container" style="width:auto; height:570px; margin-bottom:200px;">
     <div class="mb-1 mt-5 pt-5">
       <div class="display-3 mt-5 ms-2 pt-5 mb-5 fw-bolder">Laporan!</div>
@@ -10,7 +10,7 @@
 
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@gamail.com">
       </div>
 
       <div class="mb-3">
@@ -20,7 +20,7 @@
 
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">gambar</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" name="gambar" placeholder="masukan gambar">
+        <input type="file" class="form-control" id="exampleFormControlInput1" name="gambar" placeholder="masukan gambar">
       </div>
 
       <div class="mb-3 ">

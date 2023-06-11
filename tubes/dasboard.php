@@ -2,7 +2,7 @@
 require('functions.php');
 $nama = 'DASBOARD';
 $reports = query("SELECT * FROM laporan");
-
+// dasboard publik
 $dasboard = [
   [
     'judul' => 'Jumlah Penduduk',
@@ -39,4 +39,5 @@ $dasboard = [
 
 
 ];
+
 require('views/dasboard.view.php');

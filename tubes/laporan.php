@@ -3,10 +3,12 @@
 
 require('functions.php');
 $nama = 'LAPORAN';
+$reports = query("SELECT * FROM laporan");
 
+//function tambah laporan
 if (isset($_POST['tambah'])) {
 
-  if (tambah($_POST) > 0) {
+  if (insert($_POST) > 0) {
 
     echo "<script>
         alert('data berhasil ditambah');

@@ -1,0 +1,77 @@
+html {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+.nav-item:hover {
+  color: rgb(56, 56, 56);
+  font-weight: bolder;
+}
+
+.nav-item:active {
+  color: rgb(255, 255, 255);
+}
+
+.card-body {
+  background-color: rgb(255, 253, 253);
+}
+
+.loader {
+  width: 100px;
+  position: absolute;
+  top: 118px;
+  left: 210px;
+  z-index: -1;
+  display: none;
+}
+
+@media print {
+  .logout,
+  .tambah,
+  .hapus,
+  .form-control,
+  .aksi,
+  .cari,
+  .ubah,
+  .navbar,
+  .nav-link {
+    display: none;
+  }
+}
+
+.tambah {
+  background-color: #3b3b3b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.ubah {
+  background-color: #0e9497;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.hapus {
+  background-color: #dd0700;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}

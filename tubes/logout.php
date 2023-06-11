@@ -1,4 +1,5 @@
-<?php 
+<?php
+//FUNCTION LOGOUT
 session_start();
 $_SESSION = [];
 session_unset();

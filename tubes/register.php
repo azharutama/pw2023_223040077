@@ -1,6 +1,7 @@
 <?php
 require 'functions.php';
 $nama = 'REGISTER';
+//FUNCTION REGISTRASI
 if (isset($_POST["register"])) {
 
     if (registrasi($_POST) > 0) {
