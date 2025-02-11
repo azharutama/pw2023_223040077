@@ -26,9 +26,7 @@
           <a class="nav-link nav-link fw-bold <?= uriIs('berita.php'); ?>" href="berita.php">Berita</a>
         </li>
 
-        <li class="nav-item ">
-          <a class="nav-link nav-link  fw-bold" href="logout.php " onclick="return confirm('yakin?');"> <i class="fa-solid fa-right-from-bracket"></i></a>
-        </li>
+
 
       </ul>
       <form action="" method="get" class="d-flex md-0 pd-0" role="search">
@@ -36,6 +34,9 @@
         <button class="btn btn-outline-light" type="submit" name="button-search" id="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
 
+      <li class="nav-item ">
+        <a class="nav-link nav-link  fw-bold text-white ms-5 pe-5" href="logout.php " onclick="return confirm('yakin?');"> <i class="fa-solid fa-right-from-bracket"></i></a>
+      </li>
 
     </div>
   </div>

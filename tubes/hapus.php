@@ -15,7 +15,7 @@ if (hapusL($id) > 0) {
 } else {
 	echo "
 		<script>
-			alert('data berhasil dihapus!');
+			alert('data gagal dihapus!');
 			document.location.href = 'admin.php';
 		</script>
 	";
@@ -32,7 +32,7 @@ if (hapusU($id) > 0) {
 } else {
 	echo "
 		<script>
-			alert('data berhasil dihapus!');
+			alert('data gagal dihapus!');
 			document.location.href = 'admin.php';
 		</script>
 	";
@@ -49,7 +49,7 @@ if (hapusB($id) > 0) {
 } else {
 	echo "
 		<script>
-			alert('data berhasil dihapus!');
+			alert('data gagal dihapus!');
 			document.location.href = 'admin.php';
 		</script>
 	";

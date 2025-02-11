@@ -20,7 +20,6 @@
         </div>
       </div>
 
-      <a class="btn btn-primary" href="cetak_content.php" role="button">cetak</a>
 
 
     </div>
